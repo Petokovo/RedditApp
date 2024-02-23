@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thymeleaf Exercise #</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="submitStyle.css">
+</head>
+<body>
+<h1>Submit a new post</h1>
+<form action="/submit/done" method="post">
+    <div>
+        <label for="title">Title:</label>
+        <input type="text" name="title" id="title" required>
+    </div>
+    <div>
+        <label for="url">URL:</label>
+        <input type="url" name="url" id="url" required>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+</body>
+</html>
